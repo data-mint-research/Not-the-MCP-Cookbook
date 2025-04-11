@@ -48,11 +48,15 @@ graph TD
   subgraph Client
     A1[LLM or User]
   end
+
   subgraph Host
     A2[MCP Host: Routes & Confirms]
   end
+
   subgraph Server
-    S1[tool/call], S2[resource/read], S3[sampling/createMessage]
+    S1[tool/call]
+    S2[resource/read]
+    S3[sampling/createMessage]
   end
 
   A1 --> A2 --> S1 --> A2 --> A1
