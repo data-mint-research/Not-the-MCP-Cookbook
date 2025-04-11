@@ -1,0 +1,28 @@
+{
+    "title": "Not-the-MCP-Cookbook",
+    "description": "A modular, detailed, and secure guide to building orchestrated agent systems with the Model Context Protocol (MCP).",
+    "author": "SEMA Project Team",
+    "language": "en",
+    "plugins": [
+      "anchors",
+      "highlight",
+      "search",
+      "mermaid-gb3",
+      "copy-code-button",
+      "toggle-chapters",
+      "back-to-top-button"
+    ],
+    "pluginsConfig": {
+      "highlight": {
+        "theme": "atom-one-light"
+      },
+      "mermaid-gb3": {
+        "version": "10.6.1"
+      },
+      "copy-code-button": {
+        "copyButtons": true
+      }
+    }
+  }
+  
+  

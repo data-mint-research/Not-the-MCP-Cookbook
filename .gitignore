@@ -1,17 +1,30 @@
+# Git ignore for Not-the-MCP-Cookbook
+
 # Node modules
 node_modules/
 
 # HonKit build output
 _book/
-
-# System files
-.DS_Store
+.gitbook/
+book.json.lock
 
 # Logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Mac metadata
-*.swp
+# OS / Editor files
+.DS_Store                # macOS
+Thumbs.db                # Windows
+ehthumbs.db              # Windows
+Icon?                   # macOS Finder icon
+desktop.ini             # Windows
+*.swp                    # vi swap files
 *.swo
+*.bak
+*.tmp
+*.~                     # temp/backup files
+
+# VS Code settings (optional)
+.vscode/
