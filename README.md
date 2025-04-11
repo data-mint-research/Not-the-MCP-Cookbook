@@ -20,7 +20,6 @@
 ## 📚 Table of Contents
 
 - [Introduction](README.md)
-- [📌 Visual Sitemap](sitemap.md)
 
 ### Core Chapters
 - [1. MCP as Architecture](chapters/architecture.md)
